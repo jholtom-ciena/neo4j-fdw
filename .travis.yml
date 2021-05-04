@@ -7,7 +7,7 @@ script:
   - exec ./scripts/test.sh
 jobs:
   include:
-      - env:
+    - env:
         - NEO4J_VERSION=4.2-enterprise
         - POSTGRES_VERSION=10
     - env:
